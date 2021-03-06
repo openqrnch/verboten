@@ -8,7 +8,7 @@ categories = [ "development-tools" ]
 keywords = [ "msvsmon", "debug", "service"  ]
 repository = "https://github.com/openqrnch/verboten"
 description = "A service wrapper to start msvsmon in a hazardous mode."
-exclude = [ "rustfmt.toml", "bld.ps1" ]
+exclude = [ "rustfmt.toml", "bld.ps1", ".gitattributes" ]
 
 [profile.release]
 lto = true
