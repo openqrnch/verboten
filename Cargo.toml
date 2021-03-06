@@ -1,0 +1,24 @@
+[package]
+name = "verboten"
+version = "0.9.0"
+authors = ["Jan Danielsson <jan.danielsson@qrnch.com>"]
+edition = "2018"
+license = "0BSD"
+categories = [ "development-tools" ]
+keywords = [ "msvsmon", "debug", "service"  ]
+repository = "https://github.com/openqrnch/verboten"
+description = "A service wrapper to start msvsmon in a hazardous mode."
+exclude = [ "rustfmt.toml", "bld.ps1" ]
+
+[profile.release]
+lto = true
+
+[dependencies]
+eventlog = { version = "0.1" }
+humantime = { version = "2" }
+log = { version = "0.4" }
+qargparser = { version = "0.5" }
+registry = { version = "1" }
+windows-service = { version = "0.3" }
+winreg = { version = "0.8" }
+
