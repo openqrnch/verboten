@@ -26,7 +26,7 @@ $DumpBin = $DumpBin[0]
 
 # Dump load-time dependencies so we can make sure we haven't pulled in some
 # annoying dependencies.
-& $DumpBin /dependents target\release\verboten.exe
+& $DumpBin /nologo /dependents target\release\verboten.exe
 
 $Exists = Test-Path -Path $HOME\vboxshares\win10 -PathType Container
 if($Exists) {
