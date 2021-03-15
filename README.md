@@ -33,13 +33,13 @@ Copy `msvsmon.exe` and its dependencies to the remote system.
 On the remote system, install the service using:
 
 ```
-verboten.exe --install <path and name of msvsmon.exe> --install <service name>
+verboten.exe --install <path and name of msvsmon.exe> <service name>
 ```
 
 Example:
 
 ```
-verboten.exe --install C:\Temp\x64\msvsmon.exe --install verboten
+verboten.exe --install C:\Temp\x64\msvsmon.exe verboten
 ```
 
 The installer will create a `Parameters` subkey under the  service's registry
