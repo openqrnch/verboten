@@ -281,7 +281,7 @@ checksum = "133bf74f01486773317ddfcde8e2e20d2933cc3b68ab797e5d718bef996a81de"
 
 [[package]]
 name = "verboten"
-version = "0.9.1"
+version = "0.9.2"
 dependencies = [
  "eventlog",
  "humantime",
